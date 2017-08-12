@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+		<apps:property name='hasTheWord' value='(&quot;get&quot; AND &quot;$&quot; AND &quot;off&quot;) OR (deals)'/>
+		<apps:property name='label' value='Deals2'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>

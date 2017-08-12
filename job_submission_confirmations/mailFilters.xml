@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+		<apps:property name='hasTheWord' value='(&quot;was submitted successfully&quot; OR (&quot;You&quot; AND &quot;submitted an application&quot;) OR &quot;Your application has been received. Good luck!&quot; OR &quot;What happens now? We will review your application&quot; OR &quot;applied for a job&quot; OR (&quot;You successfully&quot; AND &quot;applied for&quot; AND &quot;job&quot;) OR &quot;Your resume has been saved&quot; OR &quot;Confirmation of receipt&quot;) OR &quot;What happens now? Your resume will be reviewed&quot; OR &quot;We are reviewing your resume and will be contacting you&quot;'/>
+		<apps:property name='doesNotHaveTheWord' value='verify OR password OR bank OR chase'/>
+		<apps:property name='label' value='JS_Confirmation'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+		<apps:property name='from' value='@ziprecruiter.com OR @jobvite.com'/>
+		<apps:property name='hasTheWord' value='(&quot;Your application&quot; AND &quot;was viewed!&quot;) OR (&quot;received&quot; AND &quot;your application&quot;) OR &quot;We noticed that you haven&apos;t heard back&quot;'/>
+		<apps:property name='label' value='JS_Confirmation'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+		<apps:property name='from' value='no-reply@greenhouse.io'/>
+		<apps:property name='subject' value='Thank you for applying'/>
+		<apps:property name='label' value='JS_Confirmation'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>

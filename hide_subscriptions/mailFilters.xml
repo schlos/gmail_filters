@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+		<apps:property name='hasTheWord' value='(&quot;Turn off * suggestion&quot; OR &quot;unsubscribe&quot; OR &quot;want to receive these emails&quot; OR &quot;no longer receive any emails&quot; OR &quot;To remove your email&quot; OR &quot;not a spam Email&quot;)'/>
+		<apps:property name='doesNotHaveTheWord' value='bank OR chase OR password'/>
+		<apps:property name='label' value='Mass Mail'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+		<apps:property name='from' value='*@twitter.com OR *@plus.google.com OR *@message.myspace.com OR *@quora.com OR *@linkedin.com OR *@facebookmail.com OR *@postmaster.twitter.com OR noreply@mail.goodreads.com OR *@untappd.com OR *@mail.instagram.com'/>
+		<apps:property name='hasTheWord' value='-password OR -security OR -verify OR -&quot;is it you&quot; OR -message'/>
+		<apps:property name='label' value='Social Media'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
