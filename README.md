@@ -1,4 +1,4 @@
-# Gmail Email Filters
+# Gmail Filters
 ---
 
 Collection of filters for Gmail.
