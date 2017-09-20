@@ -27,7 +27,7 @@ Collection of filters for Gmail.
 
 ### Hide all Subscriptions
 
-All subscription, even if you did not subscribed, will be hidden, but not deleted.
+All subscriptions, will be hidden in archive.
 
 [Download](./hide_subscriptions/mailFilters.xml)
 
@@ -45,12 +45,12 @@ Hide all incoming automatic job submission confirmations.
 
 ### Hide Calendar Events
 
-Hide calendar events tat you will receive from your Calednar app anyway.
+Hide calendar events that you will receive from your Calendar app anyway.
 
 [Download](./hide_calendar_events/mailFilters.xml)
 
 ### Hide Social Media 
 
-Put social media emails in separate label, hidning from inbox, and marking them as read, exclusidn those that consist information about security.
+Put social media emails in separate label, hiding from inbox, and marking them as read, exclusion those that consist information about security.
 
 [Download](./hide_social_media/mailFilters.xml)
